@@ -1,0 +1,68 @@
+﻿body, header, section, div, ul, li, p, a,
+h1, h2, h3, h4, footer, span {
+  margin:0;
+  padding:0;
+  font-size: 95%;
+ }
+
+ .bgfull {
+         z-index: 1;
+         position: absolute;
+         text-align: center;
+         background-color: #222;
+         background-size: cover;
+ }
+.logo {
+        position: relative;
+        top: 18%;
+        color: #dadada;
+}
+ .f1 {
+         font: 9.6em/1.2 Skia;
+         text-shadow: 0px 3px 5px #000;
+ }
+ .f2 {
+         font: 1.5em/1.5 Helvetica;
+         font-weight: 100;
+ }
+
+ .login {
+         width: 46%;
+         height: 4.4em;
+         position: relative;
+         top: 36%;
+         margin: 0 auto;
+ }
+ #snslogin{
+         height: 100%;
+         list-style: none;
+         font: 2.25em/100% Skia;
+         color: #fff;
+ }
+.sns {
+         width: 46%;
+         height: 100%;
+ }
+ .fb {
+         float: left;
+ }
+ .tw {
+         float: right;
+ }
+ a, #fbbt, #twbt, .bgfull{
+         width: 100%;
+         height: 100%;
+         display: inherit;
+ }
+#fbbt {
+         background: url(../imgs/fb-log.png) no-repeat;
+         background-size: contain;
+ }
+#twbt {
+        background: url(../imgs/tw-log.png) no-repeat;
+         background-size: contain;
+}
+a {
+        text-decoration: none;
+        color: inherit;
+}
